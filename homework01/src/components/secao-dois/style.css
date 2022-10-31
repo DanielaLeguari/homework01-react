@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ :root{
+    --cor-texto: #96BB7C;
+    --cor-paragrafo: #252B42;
+    --fonte: 'Montserrat', sans-serif;
+ }
+
+ .container-dois{
+    width: 85%;
+    margin:  0 auto;
+ }
+
+ .lista{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ .lista li{
+    margin-top: 2rem;
+    list-style-type: none;
+ }
+
+ .lista li h1{
+    color: var(--cor-texto);
+    font-size: 58px;
+ }
+
+ .lista li p{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cor-paragrafo);
+ }

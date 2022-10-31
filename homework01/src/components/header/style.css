@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte: 'Montserrat', sans-serif;
+    --cor-de-fundo: #DDF4FF
+}
+
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 1rem; 
+    width: 80%;
+    align-items: center;
+    font-family: var(--fonte);
+    height: 80%;
+}
+
+.cabecalho h1 a {
+    color: #252B42;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.cabecalho ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho li {
+    margin-left: 2rem;
+}
+
+.cabecalho li a {
+    text-decoration: none;
+    color: #737373;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cabecalho button {
+    margin-left: 1rem;
+    font-size: 14px;
+    padding: 0.8rem;
+    width: 8rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: transparent;
+    color: #96BB7C;
+}
+
+.btn-join {
+    background: #96BB7C;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.btn-join i {
+    margin-left: 0.5rem;
+}
