@@ -1,7 +1,6 @@
 import './style.css';
 const SecaoUm = () => {
     return (
-        <>
             <section className="secao-um">
                 <div className="container">
                     <div className="container-um">
@@ -18,12 +17,10 @@ const SecaoUm = () => {
                         </div>
                     </div>
                     <div className="container-dois">
-                        <img src={"./assets/img.png"}></img>
+                        <img src="./assets/img.png" />
                     </div>
                 </div>
             </section>
-        </>
-
     )
 }
 

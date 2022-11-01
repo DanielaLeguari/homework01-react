@@ -23,30 +23,25 @@
     height: 80%;
 }
 
-.cabecalho h1 a {
+.nav-bar h1  {
     color: #252B42;
-    text-decoration: none;
     list-style-type: none;
     font-size: 24px;
 }
 
-.cabecalho ul {
+.nav-bar ul {
     display: flex;
     list-style-type: none;
 }
 
-.cabecalho li {
+.nav-bar li {
     margin-left: 2rem;
-}
-
-.cabecalho li a {
-    text-decoration: none;
     color: #737373;
     font-weight: bold;
     font-size: 14px;
 }
 
-.cabecalho button {
+.nav-bar button {
     margin-left: 1rem;
     font-size: 14px;
     padding: 0.8rem;

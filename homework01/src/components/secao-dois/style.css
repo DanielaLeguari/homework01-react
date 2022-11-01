@@ -21,6 +21,7 @@
 
  .lista li{
     margin-top: 2rem;
+    margin-bottom:2rem ;
     list-style-type: none;
  }
 
